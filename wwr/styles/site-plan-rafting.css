@@ -6,13 +6,11 @@
     --accent1-color: #cd4631;
     --accent2-color: #81adc8;
 
-    --heading-font: 'Oswald', serif;
-    --paragraph-font: 'Roboto', serif;
+    --heading-font: 'Oswald', serif; 
 
     --nav-background-color: #81adc8;
-
     --nav-link-color: black;
-    --Nav-hover-color: grey;
+    --nav-hover-color: grey;
     --nav-hover-background-color: red; 
 }
 
