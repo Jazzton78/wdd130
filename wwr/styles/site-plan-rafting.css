@@ -10,9 +10,9 @@
     --paragraph-font: 'Roboto', serif;
 
     --nav-background-color: #81adc8;
-    --nav-link-color: black;
-    --nav-hover-link-color: grey;
-    --nav-hover-background-color: red; 
+    --nav-link-color: #f8f2dc;
+    --nav-hover-link-color: #81adc8;
+    --nav-hover-background-color: #9e6240; 
 }
 
 body {
@@ -53,6 +53,6 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover {
-    color: var(--Nav-hover-color);
-    background-color: var(--nav-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
