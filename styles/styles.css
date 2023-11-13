@@ -2,12 +2,10 @@ main {
     max-width: 840px;
 }
 
-aside h2 {
+aside {
     width: 20rem;
     text-align: center;
     position: relative;
-    top: 1px;
-    left: 150px;
 }
 
 aside img {
@@ -68,4 +66,10 @@ footer {
     padding: 1rem;
     background-color: #eee;
     color: #333;
+}
+
+aside h2 {
+    position: absolute;
+    top: -10px;
+    left: 100px;
 }
