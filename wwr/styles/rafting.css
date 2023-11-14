@@ -40,11 +40,22 @@ h1 {
     position: absolute;
     top: 120px;
     left: 100px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    color: white;
 }
 
 article {
     position: absolute;
-    float: right;
-    top: 120px;
+    overflow: hidden; 
+    background-color: var(--primary-color);
+    top: 400px;
     left: 100px;
+    text-align: center;
+}
+
+article img {
+    float: right;
+    margin-left: 10px;
+    width: 200px;
 }
