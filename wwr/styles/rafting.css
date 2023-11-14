@@ -42,8 +42,7 @@ h1 {
     left: 100px;
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px;
-    color: white;
-    width: 100%;
+    color: var(--accent1-color);
     text-align: center;
 }
 
@@ -54,7 +53,7 @@ article {
     top: 400px;
     left: 100px;
     text-align: center;
-    width: 100%;
+    height: auto;
 }
 
 article img {
