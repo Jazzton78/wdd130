@@ -43,15 +43,18 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px;
     color: white;
+    width: 100%;
+    text-align: center;
 }
 
 article {
     position: absolute;
     overflow: hidden; 
-    background-color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0.5);
     top: 400px;
     left: 100px;
     text-align: center;
+    width: 100%;
 }
 
 article img {
