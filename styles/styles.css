@@ -1,5 +1,4 @@
 main {
-    max-width: 840px;
     grid-column: 2/3;
     margin: 1rem;
 }
@@ -8,7 +7,7 @@ aside {
     width: 20rem;
     text-align: center;
     position: relative;
-    grid-column: 3/4;
+    grid-column: 1/2;
 }
 
 aside img {
@@ -90,7 +89,7 @@ aside h2 {
     left: 70px;
 }
 
-header, .grid, footer {
+header, .grid, footer, main {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -98,4 +97,13 @@ header, .grid, footer {
 .grid {
     display: flex;
     align-items: center;
+}
+
+/* added */
+
+/* Add this to move the main to the right */
+@media (min-width: 768px) {
+    .grid {
+        flex-direction: row-reverse;
+    }
 }
