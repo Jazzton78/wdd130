@@ -107,3 +107,29 @@ header, .grid, footer, main {
         flex-direction: row-reverse;
     }
 }
+
+/* Might Change */
+
+main {
+    max-width: 840px;
+    grid-column: 2/3; /* Keep this as is */
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    text-align: center;
+    position: relative;
+    grid-column: 1/2; /* Keep this as is */
+}
+
+nav, header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between; /* Add this to create space between main and aside */
+    align-items: center;
+}
