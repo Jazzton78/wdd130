@@ -63,7 +63,7 @@ a:hover {
 .image-container {
     position: relative;
     margin: 10px;
-    width: 200px; /* Set a fixed width for the image containers */
+    width: 200px;
 }
 
 .image-container p {
@@ -74,19 +74,19 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 10px;
-    margin: 0; /* Reset default margin */
+    margin: 0; 
 }
 
 .image-container img {
     max-width: 100%;
     height: auto;
-    width: 100%; /* Ensure images take up the full width of the container */
+    width: 100%;
 }
 
 .adventure {
     text-align: center;
-    margin: 0 auto; /* Add this line to center block-level elements */
-    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto; 
+    max-width: 600px; 
 }
 
 .footer {
@@ -94,13 +94,13 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: var(--nav-background-color); /* Adjust background color as needed */
-    color: white; /* Adjust text color as needed */
+    background-color: var(--nav-background-color); 
+    color: white; 
 }
 
 .footer h3 {
-    margin: 0; /* Reset default margin to center the h3 */
-    text-align: center; /* Center the text horizontally */
+    margin: 0; 
+    text-align: center; 
 }
 
 .sociallinks {
@@ -110,23 +110,23 @@ a:hover {
 
 .sociallinks a {
     text-decoration: none;
-    color: white; /* Adjust link color as needed */
+    color: white;
 }
 
 .history {
     display: grid;
     grid-template-rows: auto auto;
-    gap: 10px; /* Adjust the gap as needed */
+    gap: 10px;
 }
 
 .history h2 {
     grid-row: 1;
-    text-align: center; /* Center the text horizontally */
+    text-align: center; 
 }
 
 .history p {
     grid-row: 2;
-    text-align: center; /* Center the text horizontally */
+    text-align: center; 
 }
 
 /* Hero Image Section */
@@ -139,14 +139,15 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr;
-    height: 100%; /* Set the container height to 100% of the viewport */
+    height: 100%; 
 }
 
 .hero {
     grid-row: 2;
     position: relative;
     z-index: 0;
-    min-height: 60vh; /* Set a min-height for the hero */
+    min-height: 60vh;
+    margin-top: 1rem;
 }
 
 .hero img {
@@ -184,7 +185,12 @@ h1 {
     grid-row: 1;
     text-align: center;
     margin: 0;
-    position: relative;
+    position: absolute;
+    top: 160px; 
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 2;
     color: var(--accent1-color);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
