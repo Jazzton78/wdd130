@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>DeVin Orton | WDD 130</title>
+    <meta
+      name="description"
+      content="DeVin Orton, WDD 130, fall 2023, testing out html css and more"
+    />
+    <meta name="author" content="DeVin Orton" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/quiz.css" />
+  </head>
+  <body>
+    <form action="submit_form.php" method="post">
+      <label for="q1">Fill in the blank:</label>
+      <input type="text" name="q1" id="q1" required />
+
+      <label for="q2">Short answer question:</label>
+      <textarea name="q2" id="q2" rows="4" required></textarea>
+
+      <label for="q3">Select an option:</label>
+      <select name="q3" id="q3" required>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+
+      <label for="q4">Enter an integer:</label>
+      <input type="number" name="q4" id="q4" required />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
