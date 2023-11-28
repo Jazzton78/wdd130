@@ -12,10 +12,11 @@ body {
 
 h1 {
     position: absolute; 
-    top: 10px;
+    top: 170px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
+    font-size: 25px;
 }
 
 form {
@@ -44,11 +45,11 @@ select {
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
+    background-color: purple;
     color: #fff;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: grey;
 }
