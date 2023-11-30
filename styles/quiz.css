@@ -12,12 +12,14 @@ body {
 
 h1 {
     position: absolute;
-    top: 5%; 
-    left: 50%;
+    top: -10%; 
+    left: 57%;
     transform: translateX(-50%);
     z-index: 2;
     font-size: 24px;
     display: flex;
+    width: 400px;
+    text-align: center;
 }
 
 form {
@@ -28,7 +30,7 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 350px;
     margin-top: 60px;
-    z-index: 1; 
+    z-index: 3; 
 }
 
 label {
