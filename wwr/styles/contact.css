@@ -213,3 +213,7 @@ body {
     padding: 20px;
     border-radius: 10px;
   }
+
+  h3 {
+    font-weight: 100;
+  }
