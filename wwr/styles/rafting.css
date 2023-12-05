@@ -295,7 +295,7 @@ body {
   }
   
   .contact-section img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     margin-right: 20px;
     margin: auto; /* Center vertically */
@@ -303,14 +303,18 @@ body {
   
   .contact-section button {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-bottom: 20px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 10px;
-    background-color: #3498db;
+    background-color: var(--accent1-color);
     color: #fff;
     border: none;
     cursor: pointer;
+  }
+
+  .contact-section button:hover {
+   background-color: grey;
   }
   
   .location-section {
@@ -330,7 +334,7 @@ body {
   
   th, td {
     padding: 10px;
-    text-align: left;
+    text-align: center;
   }
   
   th {
@@ -338,3 +342,13 @@ body {
     color: #fff;
   }
   
+  .contact-section h1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    color: var(--accent1-color);
+    border: none;
+    cursor: pointer;
+  }
