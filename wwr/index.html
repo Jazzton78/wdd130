@@ -20,9 +20,9 @@
     </header>
     <main>
       <div class="container">
-        <div class="contact-section">
+        <div class="main-image">
           <h1>Book Your Amazing Adventure Today!</h1>
-          <img src="images/trips.jpg" alt="Your Image" />
+          <img src="images/Homepage.jpg" alt="Your Image" />
           <a href="contact.html">
             <button>Contact Us</button>
           </a>
@@ -54,40 +54,68 @@
             <img src="images/rafting5.jpg" alt="Wyoming" />
           </figure>
         </section>
+      </div>
 
-        <div class="location-section">
-          <table>
-            <tr>
-              <td>Location 1</td>
-              <td>Full</td>
-              <td>June 2024 <button>Wait List</button></td>
-            </tr>
-            <tr>
-              <td>Location 2</td>
-              <td>Full</td>
-              <td>June 2024 <button>Wait List</button></td>
-            </tr>
-            <tr>
-              <td>Location 1</td>
-              <td>Available</td>
-              <td>July 2024 <button>Book Now</button></td>
-            </tr>
-            <tr>
-              <td>Location 2</td>
-              <td>Available</td>
-              <td>July 2024 <button>Book Now</button></td>
-            </tr>
-            <tr>
-              <td>Location 1</td>
-              <td>Not Available</td>
-              <td>August 2024 <button>View</button></td>
-            </tr>
-            <tr>
-              <td>Location 2</td>
-              <td>Not Available</td>
-              <td>August 2024 <button>View</button></td>
-            </tr>
-          </table>
+      <div class="grid-container">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <h3>Email us anytime, we will get back within 48hrs</h3>
+          <p>Email: contact@adrenalinerafting.com</p>
+          <h3>Give us a call M-F 8am-5pm</h3>
+          <p>Phone: +1 (780) 778 2222</p>
+          <h3>Or stop by M-F 8am-4pm</h3>
+          <p>Address: 123 Main St, Whitecourt</p>
+        </div>
+
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label>Why are you contacting us today?</label>
+            <input
+              type="radio"
+              id="yes"
+              name="satisfaction"
+              value="yes"
+              required
+            />
+            <label for="yes">General Inquiry</label>
+            <input
+              type="radio"
+              id="Somewhat"
+              name="satisfaction"
+              value="no"
+              required
+            />
+            <label for="no">Reservation Question</label>
+
+            <input
+              type="radio"
+              id="no"
+              name="satisfaction"
+              value="no"
+              required
+            />
+            <label for="no">Website Suggestion</label>
+            <p></p>
+
+            <label for="subscribe">Please subscribe to our newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" />
+            <label for="subscribe"
+              >Yes, I would love to receive newsletters</label
+            >
+            <p></p>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
         </div>
       </div>
     </main>
