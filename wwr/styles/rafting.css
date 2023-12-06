@@ -159,6 +159,10 @@ body {
     object-fit: cover;
 }
 
+.hero h1 {
+  top: 20px;
+}
+
 article {
     position: absolute;
     top: 50%;
