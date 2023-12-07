@@ -433,3 +433,34 @@ body {
     border: none;
     cursor: pointer;
   }
+
+  .image-grid-home {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-container-home {
+  position: relative;
+  margin: 10px;
+  width: 600px;
+}
+
+.image-container-home p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  margin: 0; 
+}
+
+.image-container-home img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
