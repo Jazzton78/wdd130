@@ -357,6 +357,25 @@ body {
     cursor: pointer;
   }
 
+  .button-link-trips {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button-link-trips:hover {
+    background-color: gray;
+    border: none; 
+  }
+
   /* Home page */
 
   body {
@@ -470,4 +489,23 @@ body {
   height: auto;
   width: 100%;
   top: 10%;
+}
+
+.button-link-home {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  background-color: var(--accent1-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-link-home:hover {
+  background-color: gray;
+  border: none; 
 }
