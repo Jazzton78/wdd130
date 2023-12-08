@@ -384,7 +384,7 @@ body {
   
   .main-image button {
     position: absolute;
-    top: 70%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
@@ -425,7 +425,7 @@ body {
   
   .main-image h1 {
     position: absolute;
-    top: 55%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
