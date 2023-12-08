@@ -359,10 +359,10 @@ body {
 
   .button-link-trips {
     position: absolute;
-    top: 20%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 0;
+    padding: 10px;
     background-color: var(--accent1-color);
     color: #fff;
     border: none;
@@ -496,7 +496,7 @@ body {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 0;
+  padding: 10px;
   background-color: var(--accent1-color);
   color: #fff;
   border: none;
